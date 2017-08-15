@@ -1,0 +1,6 @@
+/build
+/proguard-rules.pro
+/app.iml
+/libs/
+/src/androidTest/
+/src/test/

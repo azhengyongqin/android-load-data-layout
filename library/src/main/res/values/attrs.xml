@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadDataLayout">
+        <attr name="ldl_empty_layout" format="reference"/>
+        <attr name="ldl_error_layout" format="reference"/>
+        <attr name="ldl_loading_layout" format="reference"/>
+    </declare-styleable>
+</resources>
