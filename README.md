@@ -1,11 +1,7 @@
+
 > ####  **请注明出处http://blog.csdn.net/qq_23179075/article/details/77343623**
-***
+----------
 > ### **描述:<font color="#FF4567">  一个通用的数据加载界面,可以显示空布局,加载时布局,错误布局...**
-
-#### **既然忘了妹子图:**
-![240069.jpg](http://upload-images.jianshu.io/upload_images/2909848-0397296f9ce06530.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
 ----------
 
 
@@ -108,8 +104,8 @@ compile 'com.zhengliang:LoadDdataLayout:1.0.1'
     public void showLoading(String s, SetImgCallBack callBack)
 ```
 
-#### **空布局设置样式重载函数(参数同上): `showEmpty();` ** 
-#### **错误布局设置样式重载函数(参数同上): `showError();` ** 
+#### **空布局设置样式重载函数(参数同上): `showEmpty();`** 
+#### **错误布局设置样式重载函数(参数同上): `showError();`** 
 
 
 ----------
@@ -161,4 +157,4 @@ compile 'com.zhengliang:LoadDdataLayout:1.0.1'
 
 #### **当然设置了这个布局属性, 对应的设置文字和图片的属性也就没用了!**
 
-#### **源码地址:https://github.com/azhengyongqin/android-load-data-layout**
+#### **个人CSDN地址:http://blog.csdn.net/qq_23179075**
