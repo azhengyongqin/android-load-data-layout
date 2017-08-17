@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="LoadDataLayout">
+        <!--空布局-->
         <attr name="ldl_empty_layout" format="reference"/>
+        <attr name="ldl_empty_img" format="reference"/>
+        <attr name="ldl_empty_tv" format="string"/>
+        <!--错误布局-->
         <attr name="ldl_error_layout" format="reference"/>
+        <attr name="ldl_error_img" format="reference"/>
+        <attr name="ldl_error_tv" format="string"/>
+        <!--加载中布局-->
         <attr name="ldl_loading_layout" format="reference"/>
+        <attr name="ldl_loading_img" format="reference"/>
+        <attr name="ldl_loading_tv" format="string"/>
     </declare-styleable>
 </resources>

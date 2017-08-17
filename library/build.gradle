@@ -33,14 +33,14 @@ dependencies {
 /** 以下开始是将Android Library上传到jcenter的相关配置**/
 apply plugin: 'com.novoda.bintray-release'//添加
 //项目主页
-def siteUrl = 'http://git.oschina.net/zhengliang_blog/shadow-view'
+def siteUrl = 'https://github.com/azhengyongqin/android-load-data-layout'
 publish{
-    repoName = 'MyMaven'//远程仓库名字,不指明，默认是上传到maven
+    repoName = 'android'//远程仓库名字,不指明，默认是上传到maven
     userOrg = 'zhengliang1995'//bintray.com的用户名
     groupId = 'com.zhengliang'//jcenter上的路径
-    artifactId = 'load-data-layout'//项目名称
-    publishVersion = '1.0.0'//版本号
-    desc = '一个通用的数据加载界面,可以显示空布局,加载时布局,错误布局...'//描述，不重要
+    artifactId = 'LoadDdataLayout'//项目名称
+    publishVersion = '1.0.1'//版本号
+    desc = '添加通过代码单独设置图片的功能...'//描述，不重要
     website = siteUrl//项目主页
 }
 tasks.withType(Javadoc) {//防止编码问题
