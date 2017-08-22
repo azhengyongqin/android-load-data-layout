@@ -46,7 +46,7 @@ compile 'com.zhengliang:LoadDdataLayout:1.0.1'
 
 
 ### **手动设置图片和提示文字:**
-``` xml
+``` xml 
     <com.bunny.android.library.LoadDataLayout
         android:id="@+id/ldl"
         android:layout_width="match_parent"
@@ -56,8 +56,7 @@ compile 'com.zhengliang:LoadDdataLayout:1.0.1'
         app:ldl_error_tv="oh no! 好像出错了..."
         app:ldl_loading_img="@mipmap/ajax_loader"
         app:ldl_empty_img="@drawable/ic_empty"
-        app:ldl_error_img="@drawable/ic_error"
-        >
+        app:ldl_error_img="@drawable/ic_error">
         <ListView
             android:id="@+id/lv"
             android:layout_width="match_parent"
