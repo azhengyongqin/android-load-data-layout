@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.bunny.android.testapplication.MainActivity">
-    <com.bunny.android.library.LoadDataLayout
-        android:id="@+id/ldl"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:ldl_loading_layout="@layout/layout_loading"
-        app:ldl_empty_layout="@layout/layout_empty"
-        app:ldl_error_layout="@layout/layout_error"
-        >
-        <ListView
-            android:id="@+id/lv"
+
+
+        <com.bunny.android.library.LoadDataLayout
+            android:id="@+id/ldl"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </com.bunny.android.library.LoadDataLayout>
+            android:layout_height="match_parent"
+            app:ldl_empty_layout="@layout/layout_empty"
+            app:ldl_error_layout="@layout/layout_error"
+            app:ldl_loading_layout="@layout/layout_loading">
+            <com.cjj.MaterialRefreshLayout
+                android:id="@+id/refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:isLoadMore="false"
+                app:overlay="false"
+                app:progress_colors="@array/material_colors"
+                app:wave_color="#9000C4FD"
+                app:wave_height_type="higher"
+                app:wave_show="true">
+
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            </com.cjj.MaterialRefreshLayout>
+        </com.bunny.android.library.LoadDataLayout>
 </RelativeLayout>

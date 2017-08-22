@@ -33,6 +33,8 @@ compile 'com.zhengliang:LoadDdataLayout:1.0.1'
     </com.bunny.android.library.LoadDataLayout>
 </RelativeLayout>
 ```
+### **java代码中需要绑定布局**
+```ldl.setBindView(lv);```
 
 ### **效果:**
 #### **默认效果:(自带效果,没有加动画和图片)**
